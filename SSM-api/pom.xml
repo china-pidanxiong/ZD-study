@@ -7,9 +7,10 @@
 		<artifactId>zhangdsw</artifactId>
 		<version>0.1</version>
 	</parent>
+
 	<groupId>cn.zhangdfm</groupId>
 	<artifactId>zd-ssm-api</artifactId>
-	
+
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
