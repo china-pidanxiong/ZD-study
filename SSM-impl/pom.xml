@@ -6,13 +6,42 @@
 		<groupId>cn.zhangdsw</groupId>
 		<artifactId>zhangdsw</artifactId>
 		<version>0.1</version>
+		<relativePath>../../ZD-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>cn.zhangdfm</groupId>
 	<artifactId>zd-ssm-impl</artifactId>
+	<packaging>jar</packaging>
+	<version>0.1</version>
+	<name>cn.zhangdfm.zd-ssm-impl.jar</name>
 
 	<dependencies>
-		<groupId>cn.zhangdfm</groupId>
-		<artifactId>zd-ssm-api</artifactId>
+		<!-- SSM-API -->
+		<dependency>
+			<groupId>cn.zhangdfm</groupId>
+			<artifactId>zd-ssm-api</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<!-- Spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+		</dependency>
 	</dependencies>
 </project>
