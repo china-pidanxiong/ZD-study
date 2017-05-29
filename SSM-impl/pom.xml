@@ -12,7 +12,6 @@
 	<groupId>cn.zhangdfm</groupId>
 	<artifactId>zd-ssm-impl</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1</version>
 	<name>cn.zhangdfm.zd-ssm-impl.jar</name>
 
 	<dependencies>
@@ -22,26 +21,35 @@
 			<artifactId>zd-ssm-api</artifactId>
 			<version>0.1</version>
 		</dependency>
-		<!-- Spring -->
+		<!-- 工具类组件 -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
+			<groupId>cn.zhangdutl</groupId>
+			<artifactId>zhangdutl</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<!-- Mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-beans</artifactId>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
 		</dependency>
+		<!-- MySql -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
+		<!-- 连接池 -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
 		</dependency>
+		<!-- 单元测试 -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-aspects</artifactId>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
 </project>

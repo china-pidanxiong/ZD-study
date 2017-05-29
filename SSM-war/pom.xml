@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>cn.zhangdsw</groupId>
+		<artifactId>zhangdsw</artifactId>
+		<version>0.1</version>
+		<relativePath>../../ZD-parent/pom.xml</relativePath>
+	</parent>
+
+	<groupId>cn.zhangdfm</groupId>
+	<artifactId>zd-ssm-war</artifactId>
+	<packaging>war</packaging>
+	<name>cn.zhangdfm.zd-ssm-war.war</name>
+
+	<dependencies>
+		<!-- ssm工程 -->
+		<dependency>
+			<groupId>cn.zhangdfm</groupId>
+			<artifactId>zd-ssm-ui</artifactId>
+			<version>0.1</version>
+		</dependency>
+	</dependencies>
+</project>
