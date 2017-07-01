@@ -4,9 +4,9 @@
 
 	<parent>
 		<groupId>cn.zhangdsw</groupId>
-		<artifactId>zhangdsw</artifactId>
+		<artifactId>zd-ssm-parent</artifactId>
 		<version>0.1</version>
-		<relativePath>../../ZD-parent/pom.xml</relativePath>
+		<relativePath>../SSM-parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>cn.zhangdfm</groupId>
