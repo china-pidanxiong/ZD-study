@@ -12,6 +12,6 @@
 	<groupId>cn.zhangdfm</groupId>
 	<artifactId>zd-ssm-api</artifactId>
 	<packaging>jar</packaging>
-	<name>cn.zhangdfm.zd-ssm-api.jar</name>
+	<name>cn.zhangdfm.zd-ssm-api-${project.version}.jar</name>
 	
 </project>

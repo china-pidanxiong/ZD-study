@@ -12,7 +12,7 @@
 	<groupId>cn.zhangdfm</groupId>
 	<artifactId>zd-ssm-ui</artifactId>
 	<packaging>jar</packaging>
-	<name>cn.zhangdfm.zd-ssm-ui.jar</name>
+	<name>cn.zhangdfm.zd-ssm-ui-${project.version}.jar</name>
 
 	<dependencies>
 		<!-- SSM-API -->
